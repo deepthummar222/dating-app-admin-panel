@@ -1,0 +1,52 @@
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Set the background color you prefer */
+  }
+  
+  /* Style for the login form */
+  .loginForm {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the login header */
+  .loginHeader {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form inputs */
+  .loginInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style for the login button */
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Set the button color you prefer */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style for the login button on hover */
+  .loginButton:hover {
+    background-color: #0056b3; /* Set the hover color you prefer */
+  }
+  
